@@ -1,5 +1,5 @@
 #include <gazebo/gazebo.hh>
-
+// Used Template USed in Course Lecture
 namespace gazebo
 {
   class WorldPluginMyRobot : public WorldPlugin
