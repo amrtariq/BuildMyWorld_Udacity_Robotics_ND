@@ -29,14 +29,15 @@ Step 1: Create new catkin_ws
 Step 2: Clone into your new package into your ws folder
 
 Step 3 : Create a build directory and compile the code
-
+```
 $ cd ~/workspace/package/
 $ catkin_make
-
+```
 Step 4 : Add the library path to the Gazebo plugin path
-
+```
 $ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:~/package/build
-
+```
 Step 4: run 
-
+```
 $ gazebo myworld.world
+```
